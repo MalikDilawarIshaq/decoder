@@ -1,10 +1,13 @@
 @font-face {
-    font-family: 'dejavu_sans_monobook';
-    src: url('dejavusansmono-webfont.woff2') format('woff2'),
-         url('dejavusansmono-webfont.woff') format('woff');
+  font-family: 'DejaVu Sans Mono';
+  src: url('DejaVuSansMono.woff2') format('woff2'),
+      url('DejaVuSansMono.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
    body{
-    font-family: "dejavu_sans_monobook",sans-serif;
+    font-family: "DejaVu Sans Mono",sans-serif;
     background-image: url(b_img.png);
     background-position: center ;
     background-size: cover;
@@ -51,7 +54,7 @@
    padding-top: 10px;
 }
 .h-c-top p{
-    font-size: 24.275;
+    font-size: 18.2;
     font-weight: 400;
     color: #CDC9C2;
     line-height: 27.25px;
@@ -244,7 +247,7 @@
     height: 21px;
     width: 21px;
      background-color:#351936; 
-    border: 4px solid #5E6568;
+    border: 2px solid #5E6568;
     
   }
   
@@ -403,6 +406,7 @@
   background-color: #5E6568;
 }
 .num2 p{
+  letter-spacing: 1px;
   width: 610px;
   overflow-x: auto;
   font-size: 31px;
@@ -419,12 +423,12 @@
 /* Track */
 ::-webkit-scrollbar-track {
   
-  border: 3px solid #008000;
+  border: 3px solid rgb(0,100,0);;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #008000; 
+  background: rgb(0,100,0);; 
   
   
 }
@@ -574,7 +578,6 @@
 .left-footer{
   width:100%;
  margin-top: 10px;
-  padding-bottom: 10px;
   
 }
 .v-scroll{
@@ -834,7 +837,7 @@ cursor: pointer;
     }
     .r-b-11{
       width: 28%;
-      padding-bottom: 8px;
+      padding-bottom: 13px;
       border-right: 1.5px solid #5E6568;
       border-left: 1.5px solid #5E6568;
       border-bottom: 1.5px solid #5E6568;
@@ -843,13 +846,13 @@ cursor: pointer;
     .r-b-11 p{
       
       color: #7092BE;
-      font-size: 25.5px;
+      font-size: 23px;
       margin-left: 7px;
     }
     .r-b-11 p button{
       width: 40px;
       height: 30px;
-      font-size: 25.5px;
+      font-size: 23px;
       cursor: pointer;
       background: transparent;
       border: 0px solid;
@@ -880,13 +883,13 @@ cursor: pointer;
     .r-b-12 p{
       margin: 0px;
       padding: 0px;
-    font-size: 32px;
+    font-size: 27px;
     color: #744A33;
     text-align: center;
     }
     .r-b-12 button{
 
-     font-size: 60px;
+     font-size: 54px;
      color: #744A33;
      cursor: pointer;
       background: transparent;
@@ -900,13 +903,13 @@ cursor: pointer;
     .r-b-13 p{
       
       color: #7092BE;
-      font-size: 25.5px;
+      font-size: 23px;
       margin-left: 7px;
     }
     .r-b-13 p button{
       width: 40px;
       height: 30px;
-      font-size: 25.5px;
+      font-size: 23px;
       cursor: pointer;
       background: transparent;
       border: 0px solid;
@@ -914,7 +917,7 @@ cursor: pointer;
     }
     .r-b-21{
       width: 28%;
-      padding-bottom: 8px;
+      padding-bottom: 13px;
       border-right: 1.5px solid #5E6568;
       border-left: 1.5px solid #5E6568;
       border-bottom: 1.5px solid #5E6568;
@@ -984,7 +987,7 @@ cursor: pointer;
      
     .r-b-31{
       width: 28%;
-      padding-bottom: 8px;
+      padding-bottom: 13px;
       border-right: 1.5px solid #5E6568;
       border-left: 1.5px solid #5E6568;
       border-bottom: 1.5px solid #5E6568;
@@ -1019,12 +1022,12 @@ cursor: pointer;
     }
     .r-b-32 .position-p span{
       font-size: 22.5px;
-      color: #00C600;
+      color: rgb(0,128,0);
       padding-left: 13px;
     }
     .r-b-32 .position-p button{
       font-size: 23.5px;
-      color: #00C600;;
+      color: rgb(0,128,0);
       cursor: pointer;
       background: transparent;
       border: 0px solid;
@@ -1056,7 +1059,6 @@ cursor: pointer;
 
     .r-b-41{
       width: 28%;
-      padding-bottom: 8px;
       border-right: 1.5px solid #5E6568;
       border-left: 1.5px solid #5E6568;
     }
@@ -1092,7 +1094,6 @@ cursor: pointer;
 
     .r-b-42{
       width: 44%;
-      padding-bottom: 8px;
       border-right: 1.5px solid #5E6568;
     }
     .r-b-42-1{
@@ -1111,7 +1112,7 @@ cursor: pointer;
     .r-b-42-1 span{
       margin: 0px;
       padding: 0px;
-      font-size: 22.5px;
+      font-size: 19.5px;
     }
 
     
@@ -1130,7 +1131,7 @@ cursor: pointer;
      .r-b-42-2 span{
        margin: 0px;
        padding: 0px;
-       font-size: 22.5px;
+       font-size: 19.5px;
      }
 
      .r-b-42-3{
@@ -1148,7 +1149,7 @@ cursor: pointer;
      .r-b-42-3 span{
        margin: 0px;
        padding: 0px;
-       font-size: 22.5px;
+       font-size: 19.5px;
      }
      .r-b-42-4{
       text-align: center;
@@ -1165,7 +1166,7 @@ cursor: pointer;
      .r-b-42-4 span{
        margin: 0px;
        padding: 0px;
-       font-size: 22.5px;
+       font-size: 19.5px;
      }
 
     
@@ -1185,7 +1186,6 @@ cursor: pointer;
 
    .r-b-43{
      width: 28%;
-     padding-bottom: 8px;
    }
    .r-b-43-1{
      width: 50%;
@@ -1274,7 +1274,7 @@ cursor: pointer;
     width: 112px;
 }
   .h-c-top p {
-    font-size: 14.9px;
+    font-size: 10.7px;
   }
   .h-c-top button {
     width: 25px;
@@ -1361,27 +1361,27 @@ cursor: pointer;
   margin-left: 0px;
 }
 .r-b-11 p{
-  font-size: 14px;
+  font-size: 10.91px;
 }
 .r-b-11 p button{
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .r-b-13 p{
-  font-size: 14px;
+  font-size: 10.91px;
   margin-left: 0px;
 }
 .r-b-13 p button{
-  font-size: 14px;
+  font-size: 11px;
 }
 .links {
   width: 31%;
 }
 .r-b-12 button {
-  font-size: 40px;
+  font-size: 28px;
 }
 .r-b-12 p {
-  font-size: 23px;
+  font-size: 17px;
 }
 .v-scroll p {
   font-size: 13.5px;
@@ -1459,34 +1459,43 @@ cursor: pointer;
   margin-top: 4px;
 }
 .r-b-42-1 button {
-  font-size: 16.5px;
+  font-size: 13.5px;
 }
 .r-b-42-2 button {
-  font-size: 16.5px;
+  font-size: 13.5px;
 }
 .r-b-42-3 button {
-  font-size: 16.5px;
+  font-size: 13.5px;
 }
 .r-b-42-4 button {
-  font-size: 16.5px;
+  font-size: 13.5px;
 }
 .r-b-42-1 span {
-  font-size: 15.5px;
+  font-size: 14px;
 }
 .r-b-42-2 span {
-  font-size: 15.5px;
+  font-size: 14px;
 }
 .r-b-42-3 span {
-  font-size: 15.5px;
+  font-size: 14px;
 }
 .r-b-42-4 span {
-  font-size: 15.5px;
+  font-size: 14px;
 }
 .r-b-41 p {
-  font-size: 18.5px;
+  font-size: 15.5px;
 }
 .r-b-43-1 button {
-  font-size: 16.5px;
+  font-size: 14.5px;
+}
+.num1 {
+  margin-top: 5.5px;
+}
+.num2 {
+  margin-top: 5.5px;
+}
+.num2 p{
+  font-size: 25px;
 }
 .LED {
   width: 12%;
@@ -1496,45 +1505,45 @@ cursor: pointer;
   height: 50px;
 }
 .r-b-31 .rythm-p {
-  font-size: 20.5px;
+  font-size: 16.5px;
 }
 .r-b-31 .rythm-span {
-  font-size: 18.5px;
+  font-size: 16.5px;
 }
 .r-b-32 .position-p {
-  font-size: 20.5px;
+  font-size: 16.5px;
 }
 .r-b-32 .position-p span {
-  font-size: 18.5px;
+  font-size: 16.5px;
 }
 .r-b-32 .position-p button{
-  font-size: 18.5px;
+  font-size: 16.5px;
 }
 .r-b-33 .connection-p {
-  font-size: 20.5px;
+  font-size: 16.5px;
 }
 .r-b-33 .connection-p button {
-  font-size: 18.5px;
+  font-size: 16.5px;
 }
 .r-b-21 .count-p {
-  font-size: 20.5px;
+  font-size: 16.5px;
 }
 .r-b-21 .count-p button {
-  font-size: 18.5px;
+  font-size: 16.5px;
 }
 
 .r-b-22 .divisor-p {
-  font-size: 20.5px;
+  font-size: 16.5px;
 }
 .r-b-22 .divisor-p button {
-  font-size: 18.5px;
+  font-size: 16.5px;
 }
 
 .r-b-23 .sum-p {
-  font-size: 20.5px;
+  font-size: 16.5px;
 }
 .r-b-23 .sum-p button {
-  font-size: 18.5px;
+  font-size: 16.5px;
 }
 
 .all-in-one-1 p {
@@ -1590,7 +1599,7 @@ cursor: pointer;
     width: 112px;
 }
   .h-c-top p {
-    font-size: 14.9px;
+    font-size: 11.2px;
   }
   .h-c-top button {
     width: 25px;
@@ -1677,26 +1686,26 @@ cursor: pointer;
   margin-left: 0px;
 }
 .r-b-11 p{
-  font-size: 14px;
+  font-size: 11px;
 }
 .r-b-11 p button{
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .r-b-13 p{
-  font-size: 14px;
+  font-size: 11px;
 }
 .r-b-13 p button{
-  font-size: 14px;
+  font-size: 11px;
 }
 .links {
   width: 31%;
 }
 .r-b-12 button {
-  font-size: 40px;
+  font-size: 35px;
 }
 .r-b-12 p {
-  font-size: 23px;
+  font-size: 17px;
 }
 .v-scroll p {
   font-size: 13.5px;
@@ -1774,34 +1783,34 @@ cursor: pointer;
   margin-top: 4px;
 }
 .r-b-42-1 button {
-  font-size: 16.5px;
+  font-size: 14.5px;
 }
 .r-b-42-2 button {
-  font-size: 16.5px;
+  font-size: 14.5px;
 }
 .r-b-42-3 button {
-  font-size: 16.5px;
+  font-size: 14.5px;
 }
 .r-b-42-4 button {
-  font-size: 16.5px;
+  font-size: 14.5px;
 }
 .r-b-42-1 span {
-  font-size: 15.5px;
+  font-size: 13.5px;
 }
 .r-b-42-2 span {
-  font-size: 15.5px;
+  font-size: 13.5px;
 }
 .r-b-42-3 span {
-  font-size: 15.5px;
+  font-size: 13.5px;
 }
 .r-b-42-4 span {
-  font-size: 15.5px;
+  font-size: 13.5px;
 }
 .r-b-41 p {
-  font-size: 18.5px;
+  font-size: 15.5px;
 }
 .r-b-43-1 button {
-  font-size: 16.5px;
+  font-size: 14.5px;
 }
 .LED {
   width: 12%;
@@ -1817,39 +1826,39 @@ cursor: pointer;
   font-size: 18.5px;
 }
 .r-b-32 .position-p {
-  font-size: 20.5px;
+  font-size: 18.5px;
 }
 .r-b-32 .position-p span {
-  font-size: 18.5px;
+  font-size: 17.5px;
 }
 .r-b-32 .position-p button{
-  font-size: 18.5px;
+  font-size: 17.5px;
 }
 .r-b-33 .connection-p {
-  font-size: 20.5px;
+  font-size: 17.5px;
 }
 .r-b-33 .connection-p button {
-  font-size: 18.5px;
+  font-size: 17.5px;
 }
 .r-b-21 .count-p {
-  font-size: 20.5px;
+  font-size: 17.5px;
 }
 .r-b-21 .count-p button {
-  font-size: 18.5px;
+  font-size: 17.5px;
 }
 
 .r-b-22 .divisor-p {
-  font-size: 20.5px;
+  font-size: 17.5px;
 }
 .r-b-22 .divisor-p button {
-  font-size: 18.5px;
+  font-size: 17.5px;
 }
 
 .r-b-23 .sum-p {
-  font-size: 20.5px;
+  font-size: 18.5px;
 }
 .r-b-23 .sum-p button {
-  font-size: 18.5px;
+  font-size: 17.5px;
 }
 
 .all-in-one-1 p {
@@ -1905,7 +1914,7 @@ cursor: pointer;
     width: 112px;
 }
   .h-c-top p {
-    font-size: 16.9px;
+    font-size: 12.65px;
   }
   .h-c-top button {
     width: 28px;
@@ -1977,33 +1986,33 @@ cursor: pointer;
   margin-left: 0px;
 }
 .r-b-11 p{
-  font-size: 18px;
+  font-size: 14.27px;
 }
 .r-b-11 p button{
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .r-b-13 p{
-  font-size: 18px;
+  font-size: 14.27px;
 }
 .r-b-13 p button{
-  font-size: 18px;
+  font-size: 15px;
 }
 .links {
   width: 31%;
 }
 .r-b-12 button {
-  font-size: 52px;
+  font-size: 45px;
 }
 .r-b-12 p {
-  font-size: 28px;
+  font-size: 20px;
 }
 .links button{
   font-size: 14px;
   height: 46px;
 }
 .user-name {
-  width: 30%;
+  width: 32%;
 }
 .user-name p{
   font-size: 28px;
@@ -2032,37 +2041,88 @@ cursor: pointer;
   font-size: 13px;
 }
 .r-b-42-1 button {
-  font-size: 17.5px;
+  font-size: 16.5px;
 }
 .r-b-42-2 button {
-  font-size: 17.5px;
+  font-size: 16.5px;
 }
 .r-b-42-3 button {
-  font-size: 17.5px;
+  font-size: 16.5px;
 }
 .r-b-42-4 button {
-  font-size: 17.5px;
+  font-size: 16.5px;
 }
 .r-b-42-1 span {
-  font-size: 16.5px;
+  font-size: 15.5px;
 }
 .r-b-42-2 span {
-  font-size: 16.5px;
+  font-size: 15.5px;
 }
 .r-b-42-3 span {
-  font-size: 16.5px;
+  font-size: 15.5px;
 }
 .r-b-42-4 span {
-  font-size: 16.5px;
+  font-size: 15.5px;
+}
+.num2 {
+  margin-top: 4.5px;
+}
+.num2 p{
+  font-size: 25px;
 }
 .r-b-41 p {
-  font-size: 19.5px;
+  font-size: 17.5px;
 }
 .r-b-43-1 button {
+  font-size: 16.5px;
+}
+.left-footer {
+  margin-top: 2px;
+}
+.num1 {
+  margin-top: 5.5px;
+}
+.r-b-33 .connection-p {
+  font-size: 20px;
+}
+.r-b-33 .connection-p button {
+  font-size: 20px;
+}
+.r-b-32 .position-p {
   font-size: 20.5px;
 }
+.r-b-32 .position-p span {
+  font-size: 18px;
+}
+.r-b-32 .position-p button {
+  font-size: 18px;
+}
+.r-b-31 .rythm-p {
+  font-size: 20.5px;
+}
+.r-b-31 .rythm-span {
+  font-size: 17.5px;
+}
+.r-b-21 .count-p {
+  font-size: 20.5px;
+}
+.r-b-21 .count-p button {
+  font-size: 22.5px;
+}
+.r-b-22 .divisor-p {
+  font-size: 20.5px;
+}
+.r-b-22 .divisor-p button {
+  font-size: 22.5px;
+}
+.r-b-23 .sum-p {
+  font-size: 20.5px;
+}
+.r-b-23 .sum-p button {
+  font-size: 22.5px;
+}
 .LED {
-  width: 10%;
+  width: 11%;
 }
 .LED button img {
   width: 41.5px;
@@ -2075,8 +2135,44 @@ cursor: pointer;
 
 @media (min-width: 1000px) and (max-width: 1099px){
   .h-c-top p {
-    font-size: 18.9px;
+    font-size: 14.1px;
   }
+  .r-b-33 .connection-p button {
+    font-size: 22.5px;
+}
+.r-b-33 .connection-p {
+  font-size: 22px;
+}
+.r-b-32 .position-p {
+  font-size: 22.5px;
+}
+.r-b-32 .position-p span {
+  font-size: 20px;
+}
+.r-b-32 .position-p button {
+  font-size: 20px;
+}
+.r-b-31 .rythm-p {
+  font-size: 22.5px;
+}
+.r-b-31 .rythm-span {
+  font-size: 19.5px;
+}
+.r-b-21 .count-p {
+  font-size: 22.5px;
+}
+.r-b-22 .divisor-p {
+  font-size: 22.5px;
+}
+.r-b-23 .sum-p {
+  font-size: 22.5px;
+}
+.r-b-41 p {
+  font-size: 20px;
+}
+
+
+
   .checkmark{
     height: 20px;
     width: 20px;
@@ -2111,17 +2207,23 @@ cursor: pointer;
   padding-left: 10px;
 }
 .r-b-11 p{
-  font-size: 21px;
+  font-size: 16.8px;
 }
 .r-b-11 p button{
-  font-size: 21px;
+  font-size: 16.8px;
 }
 
 .r-b-13 p{
-  font-size: 21px;
+  font-size: 16.8px;
 }
 .r-b-13 p button{
-  font-size: 21px;
+  font-size: 16.8px;
+}
+.r-b-12 p {
+  font-size: 22px;
+}
+.r-b-12 button {
+  font-size: 50px;
 }
 .links {
   width: 31%;
@@ -2145,16 +2247,43 @@ cursor: pointer;
   font-size: 13px;
 }
 .r-b-42-1 button {
-  font-size: 20.5px;
+  font-size: 19px;
+}
+.r-b-42-1 span {
+  font-size: 17.5px;
 }
 .r-b-42-2 button {
-  font-size: 20.5px;
+  font-size: 19px;
+}
+.r-b-42-2 span {
+  font-size: 17.5px;
 }
 .r-b-42-3 button {
-  font-size: 20.5px;
+  font-size: 19px;
+}
+.r-b-42-3 span {
+  font-size: 17.5px;
 }
 .r-b-42-4 button {
-  font-size: 20.5px;
+  font-size: 19px;
+}
+.r-b-42-4 span {
+  font-size: 17.5px;
+}
+
+element.style {
+}
+.item-center-vertically {
+    align-items: center;
+}
+.content-center {
+    justify-content: center;
+}
+.disply-flex {
+    display: flex;
+}
+.num1 {
+    margin-top: 4.5px;
 }
 .LED {
   width: 11%;
@@ -2170,7 +2299,7 @@ cursor: pointer;
 
 @media (min-width: 1100px) and (max-width: 1200px){
   .h-c-top p {
-    font-size: 20.8px;
+    font-size: 17px;
   }
   .pi {
     width: 34%;
@@ -2179,17 +2308,17 @@ cursor: pointer;
   padding-left: 10px;
 }
 .r-b-11 p{
-  font-size: 24px;
+  font-size: 19px;
 }
 .r-b-11 p button{
-  font-size: 24px;
+  font-size: 19px;
 }
 
 .r-b-13 p{
-  font-size: 24px;
+  font-size: 19px;
 }
 .r-b-13 p button{
-  font-size: 24px;
+  font-size: 19px;
 }
 .links {
   width: 32%;
@@ -2215,6 +2344,21 @@ cursor: pointer;
 
 @media (min-width: 1201px) and (max-width: 1260px){
   .h-c-top p {
-    font-size: 23px;
+    font-size: 17px;
   }
+  .r-b-11 p button {
+    font-size: 22px;
+}
+.r-b-11 p{
+  font-size: 22px;
+}
+.r-b-13 p button {
+  font-size: 22px;
+}
+.r-b-13 p{
+font-size: 22px;
+}
+
+
+
 }
