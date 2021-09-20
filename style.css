@@ -309,7 +309,7 @@
     color: #CDC9C2;
     font-size: 26px;
     line-height: 30.5px;
-   
+    font-family: "DejaVu Sans Mono",sans-serif;
   } 
   input:focus{
     outline: none;
@@ -320,6 +320,7 @@
     color: #CDC9C2;
     font-size: 26px;
     line-height: 30.5px;
+    font-family: "DejaVu Sans Mono",sans-serif;
   }
   s-boc-2{
    width: 8%;
@@ -359,6 +360,7 @@
     padding-top: 6px;
     padding-left: 5px;
     cursor: pointer;
+    font-family: "DejaVu Sans Mono",sans-serif;
   }
 
   .pcs{
@@ -387,6 +389,7 @@
   border: 0px;
   background-color: transparent;
   cursor: pointer;
+  font-family: "DejaVu Sans Mono",sans-serif;
 }
 
 .numbers{
@@ -407,7 +410,7 @@
 }
 .num2 p{
   letter-spacing: 1px;
-  width: 610px;
+  width: 100%;
   overflow-x: auto;
   font-size: 31px;
   margin: 0px;
@@ -461,6 +464,7 @@
     background-color: transparent;
     padding-left: 4.5px;
     cursor: pointer;
+    font-family: "DejaVu Sans Mono",sans-serif;
 }
 .all-in-one-2{
   width: 80%;
@@ -479,6 +483,7 @@
     border: 0px;
     background-color: transparent;
     cursor: pointer;
+    font-family: "DejaVu Sans Mono",sans-serif;
 }
 
 
@@ -530,6 +535,7 @@
     border: 0px;
     background-color: transparent;
     cursor: pointer;
+    font-family: "DejaVu Sans Mono",sans-serif;
 }
 
 
@@ -574,6 +580,7 @@
     border: 0px;
     background-color: transparent;
     cursor: pointer;
+    font-family: "DejaVu Sans Mono",sans-serif;
 }
 .left-footer{
   width:100%;
@@ -857,6 +864,7 @@ cursor: pointer;
       background: transparent;
       border: 0px solid;
       color: #CDC9C2;
+      font-family: "DejaVu Sans Mono",sans-serif;
     }
     .octal-p{
       margin: 0px;
@@ -888,7 +896,7 @@ cursor: pointer;
     text-align: center;
     }
     .r-b-12 button{
-
+      font-family: "DejaVu Sans Mono",sans-serif;
      font-size: 54px;
      color: #744A33;
      cursor: pointer;
@@ -907,13 +915,14 @@ cursor: pointer;
       margin-left: 7px;
     }
     .r-b-13 p button{
-      width: 40px;
+      width: 45px;
       height: 30px;
       font-size: 23px;
       cursor: pointer;
       background: transparent;
       border: 0px solid;
       color: #CDC9C2;
+      font-family: "DejaVu Sans Mono",sans-serif;
     }
     .r-b-21{
       width: 28%;
@@ -937,6 +946,7 @@ cursor: pointer;
       background: transparent;
       border: 0px solid;
       padding-top: 16px;
+      font-family: "DejaVu Sans Mono",sans-serif;
     }
 
     .r-b-22{
@@ -960,6 +970,7 @@ cursor: pointer;
       background: transparent;
       border: 0px solid;
       padding-top: 16px;
+      font-family: "DejaVu Sans Mono",sans-serif;
     }
 
     .r-b-23{
@@ -982,6 +993,7 @@ cursor: pointer;
       background: transparent;
       border: 0px solid;
       padding-top: 16px;
+      font-family: "DejaVu Sans Mono",sans-serif;
     }
 
      
@@ -1024,6 +1036,7 @@ cursor: pointer;
       font-size: 22.5px;
       color: rgb(0,128,0);
       padding-left: 13px;
+      font-family: "DejaVu Sans Mono",sans-serif;
     }
     .r-b-32 .position-p button{
       font-size: 23.5px;
@@ -1032,6 +1045,7 @@ cursor: pointer;
       background: transparent;
       border: 0px solid;
       padding-top: 12px;
+      font-family: "DejaVu Sans Mono",sans-serif;
     }
 
     .r-b-33{
@@ -1053,6 +1067,7 @@ cursor: pointer;
       background: transparent;
       border: 0px solid;
       padding-top: 16px;
+      font-family: "DejaVu Sans Mono",sans-serif;
     }
 
 
@@ -1107,11 +1122,14 @@ cursor: pointer;
       cursor: pointer;
       margin: 0px;
       padding: 0px;
+      margin-left: 2px;
       font-size: 22.5px;
+      font-family: "DejaVu Sans Mono",sans-serif;
     }
     .r-b-42-1 span{
       margin: 0px;
       padding: 0px;
+      margin-left: 2px;
       font-size: 19.5px;
     }
 
@@ -1127,10 +1145,12 @@ cursor: pointer;
        margin: 0px;
        padding: 0px;
        font-size: 22.5px;
+       font-family: "DejaVu Sans Mono",sans-serif;
      }
      .r-b-42-2 span{
        margin: 0px;
        padding: 0px;
+       margin-left: 2px;
        font-size: 19.5px;
      }
 
@@ -1145,10 +1165,12 @@ cursor: pointer;
        margin: 0px;
        padding: 0px;
        font-size: 22.5px;
+       font-family: "DejaVu Sans Mono",sans-serif;
      }
      .r-b-42-3 span{
        margin: 0px;
        padding: 0px;
+       margin-left: 2px;
        font-size: 19.5px;
      }
      .r-b-42-4{
@@ -1162,10 +1184,12 @@ cursor: pointer;
        margin: 0px;
        padding: 0px;
        font-size: 22.5px;
+       font-family: "DejaVu Sans Mono",sans-serif;
      }
      .r-b-42-4 span{
        margin: 0px;
        padding: 0px;
+       margin-left: 2px;
        font-size: 19.5px;
      }
 
@@ -1188,13 +1212,15 @@ cursor: pointer;
      width: 28%;
    }
    .r-b-43-1{
-     width: 50%;
+     width: 54%;
+     font-family: "DejaVu Sans Mono",sans-serif;
    }
    .r-b-43-1 button{
      border:0px;
      background: transparent;
      cursor: pointer;
      font-size: 22.5px;
+     font-family: "DejaVu Sans Mono",sans-serif;
      color: #CDC9C2;
    }
    .r-b-43-btn1{
